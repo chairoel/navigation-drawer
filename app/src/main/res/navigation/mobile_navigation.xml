@@ -22,4 +22,10 @@
         android:name="com.ebc.learningnav.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.ebc.learningnav.ui.inbox.InboxFragment"
+        android:label="@string/inbox"
+        tools:layout="@layout/fragment_inbox"/>
 </navigation>
